@@ -14,7 +14,7 @@ $(document).ready(function () {
         }
 
         $.ajax({
-            url: `http://api.aladhan.com/v1/calendar/2023?latitude=40.37767&longitude=49.89201&method=2`,
+            url: `https://api.aladhan.com/v1/calendar/2023?latitude=40.37767&longitude=49.89201&method=2`,
             method: "get",
             success: function (datas) {
                 let months = datas.data[month];
